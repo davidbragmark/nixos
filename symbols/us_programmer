@@ -1,0 +1,31 @@
+xkb_symbols "us_programmer"
+{
+
+   include "us(basic)"
+   include "level3(ralt_switch)"
+
+    key <TLDE> { [          dollar,        asciitilde, dead_grave, dead_tilde      ] };
+
+    key <TLDE>  { [     grave,	asciitilde	]	};
+    key <AE01> {     [  exclam       ,1  ]  };
+    key <AE02> {     [  at           ,2  ]  };
+    key <AE03> {     [  numbersign   ,3  ]  };
+    key <AE04> {     [  dollar       ,4  ]  };
+    key <AE05> {     [  percent      ,5  ]  };
+    key <AE06> {     [  asciicircum  ,6  ]  };
+    key <AE07> {     [  ampersand    ,7  ]  };
+    key <AE08> {     [  asterisk     ,8  ]  };
+    key <AE09> {     [  parenleft    ,9  ]  };
+    key <AE10> {     [  parenright   ,0  ]  };
+    key <AE11>  { [     minus,	underscore	]	};
+    key <AE12>  { [     equal,	plus		]	};
+
+    key <AD09> {	[ o, O, dead_circumflex, dead_circumflex ]	};
+
+    key <AD11> {	[ bracketleft,	braceleft, aring, Aring	]	};
+    key <AD12> {	[ bracketright,	braceright	]	};
+
+    key <AC10> {	[ semicolon,	colon, odiaeresis, Odiaeresis		]	};
+    key <AC11> {	[ apostrophe,	quotedbl, adiaeresis, Adiaeresis	]	};
+};
+
