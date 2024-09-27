@@ -141,7 +141,7 @@ in {
     dpi = 120;
     videoDrivers = ["displaylink"];
     xkb.layout = "us_programmer,real-prog-qwerty";
-    xkb.options = "ctrl:nocaps,grp:alt_shift_toggle";
+    xkb.options = "ctrl:nocaps,grp:ctrls_toggle";
     xkb.variant = "";
     xkb.extraLayouts.us_programmer = {
       description = "Eng programmer's layout";
